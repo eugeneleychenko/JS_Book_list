@@ -18,10 +18,9 @@ class UI {
       <td>${book.isbn}</td>
       <td><a href="#" class="delete">X</a></td>
   `
-
-  list.appendChild(row);
-
+    list.appendChild(row);
   }
+  
   showAlert(message, className){
     const div = document.createElement("div");
     div.className = `alert ${className}`;
